@@ -1,9 +1,12 @@
 package sample.ex2;
 
+import common.Exercise;
 import java.util.Scanner;
 
-public class Operators {
-    public static void start(String[] args) {
+public class Operators implements Exercise {
+
+    @Override
+    public void start() {
         float width;
         float height;
 

@@ -1,9 +1,12 @@
-package sample.ex3;
+package sample.ex5;
 
+import common.Exercise;
 import java.util.Scanner;
 
-public class LinearEquationResolver {
-    public static void start(String[] args) {
+public class LinearEquationResolver implements Exercise {
+
+    @Override
+    public void start() {
         System.out.println("Linear Equation Resolver");
         System.out.println("Given a equation as 'a * x + b = 0', please enter constants:");
         Scanner scanner = new Scanner(System.in);

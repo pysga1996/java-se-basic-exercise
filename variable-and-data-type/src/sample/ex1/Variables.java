@@ -1,7 +1,11 @@
 package sample.ex1;
 
-public class Variables {
-    public static void start(String[] args) {
+import common.Exercise;
+
+public class Variables implements Exercise {
+
+    @Override
+    public void start() {
         int i = 10;
         float f = 20.5f;
         double d = 20.5;
