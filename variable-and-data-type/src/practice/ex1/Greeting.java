@@ -8,9 +8,9 @@ public class Greeting implements Exercise {
     @Override
     public void start() {
         System.out.println("Enter your name: ");
-        Scanner my_scanner = new Scanner(System.in);
-        String name = my_scanner.nextLine();
-
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+        String name = scanner.nextLine();
         System.out.println("Hello: " + name);
     }
 }

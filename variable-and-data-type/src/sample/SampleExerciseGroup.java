@@ -1,5 +1,7 @@
-package common;
+package sample;
 
+import common.Exercise;
+import common.ExerciseGroup;
 import java.awt.event.KeyEvent;
 import sample.ex1.Variables;
 import sample.ex10.Interest;
@@ -36,30 +38,39 @@ public class SampleExerciseGroup implements ExerciseGroup {
         Exercise exercise;
         switch (cmd) {
             case KeyEvent.VK_1:
+            case KeyEvent.VK_NUMPAD1:
                 exercise = new Variables();
                 break;
             case KeyEvent.VK_2:
+            case KeyEvent.VK_NUMPAD2:
                 exercise = new Operators();
                 break;
             case KeyEvent.VK_3:
+            case KeyEvent.VK_NUMPAD3:
                 exercise = new SystemTime();
                 break;
             case KeyEvent.VK_4:
+            case KeyEvent.VK_NUMPAD4:
                 exercise = new Menu();
                 break;
             case KeyEvent.VK_5:
+            case KeyEvent.VK_NUMPAD5:
                 exercise = new LinearEquationResolver();
                 break;
             case KeyEvent.VK_6:
+            case KeyEvent.VK_NUMPAD6:
                 exercise = new Prime();
                 break;
             case KeyEvent.VK_7:
+            case KeyEvent.VK_NUMPAD7:
                 exercise = new LeapYear();
                 break;
             case KeyEvent.VK_8:
+            case KeyEvent.VK_NUMPAD8:
                 exercise = new Weight();
                 break;
             case KeyEvent.VK_9:
+            case KeyEvent.VK_NUMPAD9:
                 exercise = new Days();
                 break;
             case KeyEvent.VK_A:
@@ -69,6 +80,7 @@ public class SampleExerciseGroup implements ExerciseGroup {
                 exercise = new GreatestCommonDivisor();
                 break;
             case KeyEvent.VK_0:
+            case KeyEvent.VK_NUMPAD0:
                 return;
             default:
                 System.err.println("Unknown command!!!");

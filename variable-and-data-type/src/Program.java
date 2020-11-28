@@ -1,9 +1,9 @@
 import common.ExerciseGroup;
 import common.ExerciseType;
-import common.PracticeExerciseGroup;
+import practice.PracticeExerciseGroup;
 import java.awt.event.KeyEvent;
 import java.io.InputStream;
-import common.SampleExerciseGroup;
+import sample.SampleExerciseGroup;
 
 public class Program {
 
