@@ -15,8 +15,6 @@ import sample.ex9.Days;
 
 public class SampleExerciseGroup implements ExerciseGroup {
 
-    private Exercise exercise;
-
     @Override
     public void showMenu() {
         System.out.println("Enter a command: ");
@@ -35,45 +33,50 @@ public class SampleExerciseGroup implements ExerciseGroup {
 
     @Override
     public void executeCommand(int cmd) {
+        Exercise exercise;
         switch (cmd) {
             case KeyEvent.VK_1:
-                this.exercise = new Variables();
+                exercise = new Variables();
                 break;
             case KeyEvent.VK_2:
-                this.exercise = new Operators();
+                exercise = new Operators();
                 break;
             case KeyEvent.VK_3:
-                this.exercise = new SystemTime();
+                exercise = new SystemTime();
                 break;
             case KeyEvent.VK_4:
-                this.exercise = new Menu();
+                exercise = new Menu();
                 break;
             case KeyEvent.VK_5:
-                this.exercise = new LinearEquationResolver();
+                exercise = new LinearEquationResolver();
                 break;
             case KeyEvent.VK_6:
-                this.exercise = new Prime();
+                exercise = new Prime();
                 break;
             case KeyEvent.VK_7:
-                this.exercise = new LeapYear();
+                exercise = new LeapYear();
                 break;
             case KeyEvent.VK_8:
-                this.exercise = new Weight();
+                exercise = new Weight();
                 break;
             case KeyEvent.VK_9:
-                this.exercise = new Days();
+                exercise = new Days();
                 break;
             case KeyEvent.VK_A:
-                this.exercise = new Interest();
+                exercise = new Interest();
                 break;
             case KeyEvent.VK_B:
-                this.exercise = new GreatestCommonDivisor();
+                exercise = new GreatestCommonDivisor();
                 break;
+            case KeyEvent.VK_0:
+                return;
             default:
                 System.err.println("Unknown command!!!");
                 return;
         }
+        System.out.print("\n>>> Begin >>>\n");
         exercise.start();
+        System.out.print("\n<<< End <<<\n\n");
     }
 
 }

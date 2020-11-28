@@ -11,18 +11,23 @@ public class Program {
 
     public static void main(String[] args) {
         checkMode(args);
-        int cmd;
-        System.out.println("--- Start ---");
+        int cmd = 0;
+        System.out.println("--- START ---");
         try (InputStream is = System.in) {
             do {
-                exerciseGroup.showMenu();
+                if (cmd != KeyEvent.VK_ENTER && cmd != 13) {
+                    exerciseGroup.showMenu();
+                }
                 cmd = is.read();
+                if (cmd == KeyEvent.VK_ENTER || cmd == 13) {
+                    continue;
+                }
                 exerciseGroup.executeCommand(cmd);
             } while (cmd != KeyEvent.VK_0 && cmd != KeyEvent.VK_ESCAPE);
         } catch (Exception ex) {
             printError(ex);
         }
-        System.out.println("--- End ---");
+        System.out.println("--- FINISH ---");
     }
 
     private static void checkMode(String[] args) {
