@@ -2,5 +2,22 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.dem_so_lan_xuat_hien_cua_ky_tu_trong_chuoi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.gop_mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.mang_hai_chieu-tinh_tong_cac_so_o_duong_cheo_cua_ma_tran_vuong" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.su_dung_lop_IllegalTriangleException" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.them_phan_tu_vao_mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.tim_gia_tri_nho_nhat_trong_mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.tim_phan_tu_lon_nhat_trong_mang_hai_chieu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.tinh_tong_cac_so_o_mot_cot_xac_dinh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/bai_tap.xoa_phan_tu_khoi_mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/thuc_hanh.chuong_trinh_chuyen_doi_nhiet_do" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/thuc_hanh.dao_nguoc_cac_phan_tu_cua_mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/thuc_hanh.mang_hai_chieu-tao_ban_do_tro_choi_Mine-Sweeper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/thuc_hanh.su_dung_lop_ArrayIndexOutOfBoundsException" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/thuc_hanh.tim_gia_tri_lon_nhat_trong_mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/thuc_hanh.tim_gia_tri_nho_nhat_trong_mang_su_dung_phuong_thuc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/thuc_hanh.tim_gia_tri_trong_mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/array-manipulation/thuc_hanh.ung_dung_dem_so_luong_sinh_vien_thi_do" vcs="Git" />
   </component>
 </project>

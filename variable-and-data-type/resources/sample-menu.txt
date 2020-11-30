@@ -1,0 +1,14 @@
+Enter a command: 
+1. Variable
+2. Operator
+3. System Time
+4. Design Menu
+5. Linear Equation Resolver
+6. Prime checker
+7. Leap Year checker
+8. Weight Calculator
+9. Count days in month
+10. Interest Calculator
+11. Greatest common divisor
+12. Temperature converter
+0. Exit

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="variable-and-data-type:jar">
+    <output-path>$PROJECT_DIR$/variable-and-data-type/out/artifacts</output-path>
+    <root id="archive" name="variable-and-data-type.jar">
+      <element id="module-output" name="variable-and-data-type" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../common-base/out/artifacts/common_base_jar/common-base.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

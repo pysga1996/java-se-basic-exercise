@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="array-manipulation:jar">
+    <output-path>$PROJECT_DIR$/array-manipulation/out/artifacts</output-path>
+    <root id="archive" name="array-manipulation.jar">
+      <element id="module-output" name="array-manipulation" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../common-base/out/artifacts/common_base_jar/common-base.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

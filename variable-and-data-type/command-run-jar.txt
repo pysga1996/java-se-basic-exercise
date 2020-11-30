@@ -1,0 +1,1 @@
+java -p "F:\CodeGym\Module 2\common-base\out\artifacts\common_base_jar\common-base.jar" --add-modules=common.base -jar variable-and-data-type.jar

@@ -1,0 +1,9 @@
+Enter a command: 
+1. Find element in array
+2. Find minimum value element in array
+3. Find maximum value element in array
+4. Reverse array
+5. Array index out of bound
+6. Count number of student passing the exam
+7. Mine Sweeper map
+0. Exit

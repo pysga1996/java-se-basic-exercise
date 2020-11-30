@@ -1,0 +1,10 @@
+Enter a command:
+1. Find min value in array
+2. Find max value element in a two-dimension array
+3. Add an element to array
+4. Remove an element from array
+5. Combine 2 arrays
+6. Count a character appearances in a string
+6. Count sum of all elements on a column
+6. Count sum of all elements on diagonal lines
+0. Exit

@@ -1,0 +1,8 @@
+Enter a command:
+1. Greeting
+2. Monetary
+3. Number Narrator
+4. Shapes
+5. Find first 20 primes
+6. Find primes less than 100
+0. Exit
