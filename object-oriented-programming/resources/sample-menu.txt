@@ -1,0 +1,7 @@
+Enter a command: 
+1. Triangle class example
+2. Shape system example
+3. Abstract class and interface example
+4. Comparable example
+5. Comparator example
+0. Exit

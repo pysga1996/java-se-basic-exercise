@@ -1,0 +1,9 @@
+Enter a command: 
+1. Fan class example
+2. Quadratic Equation
+3. Stop Watch class example
+4. Shape and Triangle example
+5. Circle and Cylinder example
+6. Point and MovablePoint example
+7. 2D and 3D Point example
+0. Exit

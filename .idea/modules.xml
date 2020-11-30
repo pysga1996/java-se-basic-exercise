@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/array-manipulation/array-manipulation.iml" filepath="$PROJECT_DIR$/array-manipulation/array-manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colection-manipulation/colection-manipulation.iml" filepath="$PROJECT_DIR$/colection-manipulation/colection-manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception-handling/exception-handling.iml" filepath="$PROJECT_DIR$/exception-handling/exception-handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/object-oriented-programming/object-oriented-programming.iml" filepath="$PROJECT_DIR$/object-oriented-programming/object-oriented-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/variable-and-data-type/variable-and-data-type.iml" filepath="$PROJECT_DIR$/variable-and-data-type/variable-and-data-type.iml" />
     </modules>
   </component>

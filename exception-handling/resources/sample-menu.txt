@@ -1,0 +1,3 @@
+Enter a command: 
+1. Illegal triangle exception handling
+0. Exit

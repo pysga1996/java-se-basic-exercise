@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="object-oriented-programming:jar">
+    <output-path>$PROJECT_DIR$/object-oriented-programming/out/artifacts</output-path>
+    <root id="archive" name="object-oriented-programming.jar">
+      <element id="module-output" name="object-oriented-programming" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../common-base/out/artifacts/common_base_jar/common-base.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

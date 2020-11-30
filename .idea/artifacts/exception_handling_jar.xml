@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="exception-handling:jar">
+    <output-path>$PROJECT_DIR$/exception-handling/out/artifacts</output-path>
+    <root id="archive" name="exception-handling.jar">
+      <element id="module-output" name="exception-handling" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../common-base/out/artifacts/common_base_jar/common-base.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
