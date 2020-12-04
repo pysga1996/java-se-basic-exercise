@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/exception-handling/exception-handling.iml" filepath="$PROJECT_DIR$/exception-handling/exception-handling.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/object-oriented-programming/object-oriented-programming.iml" filepath="$PROJECT_DIR$/object-oriented-programming/object-oriented-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/other.iml" filepath="$PROJECT_DIR$/other/other.iml" />
       <module fileurl="file://$PROJECT_DIR$/variable-and-data-type/variable-and-data-type.iml" filepath="$PROJECT_DIR$/variable-and-data-type/variable-and-data-type.iml" />
     </modules>
   </component>

@@ -3,7 +3,7 @@
     <module name="junit" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="com.codegym.ex1.*" />
+        <option name="PATTERN" value="com.codegym.ex2.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
