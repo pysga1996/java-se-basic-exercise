@@ -1,0 +1,4 @@
+Enter a command:
+1. Build own List class
+2. Build own LinkedList class
+0. Exit
