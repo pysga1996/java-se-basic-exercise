@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class TriangleClassifierTest {
+public class TriangleClassifierTest {
 
     @Test
     void testClassifyTriangle1() {
